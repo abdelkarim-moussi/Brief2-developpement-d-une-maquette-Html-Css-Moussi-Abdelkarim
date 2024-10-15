@@ -175,7 +175,7 @@ nav {
   padding: 30px 60px;
 }
 
-.events-head {
+.events-head,.speakers-head {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -192,6 +192,12 @@ nav {
   padding: 5px 10px;
   background-color: #F2F4FF;
   border: none;
+}
+
+.filter select input{
+  color: #1D275F;
+  font-size: 0.875rem;
+  opacity: .7;
 }
 
 .grid-list {
