@@ -8,6 +8,7 @@
   --secondary-color: #3d37f1;
   --color1: #242565;
 }
+
 header {
   padding: 20px 40px;
   background-image: linear-gradient(#ed4690e6, rgba(85, 34, 204, 0.9)),
@@ -18,10 +19,16 @@ header {
   display: flex;
   flex-direction: column;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media (max-width: 900px) {
+  .nav-menu {
+    display: none;
+  }
 }
 .nav-menu ul {
   display: flex;
@@ -62,11 +69,23 @@ nav {
   justify-content: center;
   padding: 40px 0;
 }
+@media (max-width: 748px) {
+  .hero-section {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+}
+
 .hero-image {
-  width: 600px;
-  height: 400px;
+  flex: 1;
   padding: 10px;
 }
+/* @media (max-width: 900px) {
+  .hero-image {
+    width: 400px;
+    height: 300px;
+  }
+} */
 .hero-image img {
   width: 100%;
   height: 100%;
@@ -78,6 +97,13 @@ nav {
   color: #fff;
   max-width: 443px;
 }
+@media (max-width: 900px) {
+  .hero-text {
+    max-width: 300px;
+    text-align: center;
+  }
+}
+
 .hero-title {
   font-size: 2.5rem;
   line-height: 3rem;
@@ -88,12 +114,22 @@ nav {
   margin: 20px 0;
   max-width: 380px;
 }
+
 .hero-buttons {
   display: flex;
   column-gap: 15px;
   row-gap: 20px;
   flex-wrap: wrap;
   margin-top: 15px;
+}
+@media (max-width: 900px) {
+  .hero-title {
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+  .hero-buttons {
+    justify-content: center;
+  }
 }
 .primary-button,
 .secondary-button {
@@ -120,7 +156,25 @@ nav {
   background: transparent;
   border: 1px solid #ffffff;
 }
-
+@media (max-width: 900px) {
+  .hero-title {
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+  .hero-buttons {
+    justify-content: center;
+  }
+  .primary-button,
+  .secondary-button {
+    width: 142px;
+    height: 40px;
+  }
+  .primary-button a,
+  .secondary-button a {
+    font-size: 0.8rem;
+    padding: 8px 28px;
+  }
+}
 .search-box {
   align-self: center;
   display: flex;
@@ -133,6 +187,7 @@ nav {
   border-radius: 10px;
   width: 90%;
   max-width: 1086px;
+  min-width: 90%;
   box-shadow: 1px 2px 10px #000;
   margin: 20px auto;
 }
@@ -172,17 +227,25 @@ nav {
   align-items: center;
   row-gap: 30px;
   padding: 30px 60px;
+  overflow: hidden;
+}
+@media (max-width: 450px) {
+  .events {
+    padding: 20px 15px;
+  }
 }
 
 .events-head,
 .speakers-head {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 100%;
 }
 
 .filter {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 .filter select {
@@ -201,23 +264,34 @@ nav {
 }
 
 .grid-list {
-  width: 100%;
+  max-width: 1100px;
   display: grid;
-  grid-template-columns: 1fr 1fr auto;
+  grid-template-columns: repeat(3, 1fr);
   row-gap: 20px;
-  column-gap: 15px;
+  column-gap: 40px;
   overflow: hidden;
   padding: 1.2rem auto;
 }
-
+@media (max-width: 900px) {
+  .grid-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 680px) {
+  .grid-list {
+    grid-template-columns: 1fr;
+  }
+}
 .card {
-  width: 343px;
   border-radius: 20px;
   filter: drop-shadow(1px 1px 8px #f0f0f5);
   background: #ffffff;
 }
-
+.card-image {
+  width: 100%;
+}
 .card-image img {
+  width: 100%;
   object-fit: cover;
 }
 
@@ -316,6 +390,11 @@ nav {
   align-items: center;
   padding: 30px 60px;
 }
+@media (max-width: 450px) {
+  .blog {
+    padding: 20px 15px;
+  }
+}
 
 .blog-heading {
   text-align: center;
@@ -411,6 +490,7 @@ footer {
 .subscribe {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 .subscribe-form {
   background-color: #f1f1f1;
@@ -450,7 +530,32 @@ footer {
   color: #ffffff;
   text-decoration: none;
 }
-
+@media (max-width: 900px) {
+  .logo,
+  .footer-logo {
+    width: 120px;
+    height: 36px;
+  }
+  .subscribe-form {
+    width: 300px;
+    height: 50px;
+    padding: 5px 10px;
+    column-gap: 10px;
+  }
+  .subscribe-button {
+    width: 100px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 50px;
+  }
+  .subscribe-button a {
+    font-size: 0.6rem;
+  }
+  .icon {
+    width: 26px;
+    height: 26px;
+  }
+}
 .copyright {
   font-size: 0.6rem;
   color: #ffffff;
