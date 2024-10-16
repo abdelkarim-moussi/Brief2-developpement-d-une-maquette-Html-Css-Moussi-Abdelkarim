@@ -267,7 +267,7 @@ nav {
   max-width: 1100px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  row-gap: 20px;
+  row-gap: 40px;
   column-gap: 40px;
   overflow: hidden;
   padding: 1.2rem auto;
@@ -286,6 +286,7 @@ nav {
   border-radius: 20px;
   filter: drop-shadow(1px 1px 8px #f0f0f5);
   background: #ffffff;
+  margin: 10px auto;
 }
 .card-image {
   width: 100%;
@@ -329,7 +330,6 @@ nav {
 }
 .load-more_btn a {
   color: #000;
-  font-size: 1rem;
   text-transform: capitalize;
   letter-spacing: 1px;
   font-weight: 550;
@@ -517,7 +517,7 @@ footer {
 }
 
 .subscribe-button {
-  max-width: 130px;
+  max-width: 140px;
   padding: 10px 24px;
   text-align: center;
   outline: none;
