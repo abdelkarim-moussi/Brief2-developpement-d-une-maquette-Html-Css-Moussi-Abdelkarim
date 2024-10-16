@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "puppins";
 }
 :root {
   --primary-color: #f5167e;
@@ -175,7 +174,8 @@ nav {
   padding: 30px 60px;
 }
 
-.events-head,.speakers-head {
+.events-head,
+.speakers-head {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -190,14 +190,14 @@ nav {
   outline: none;
   border-radius: 20px;
   padding: 5px 10px;
-  background-color: #F2F4FF;
+  background-color: #f2f4ff;
   border: none;
 }
 
-.filter select input{
-  color: #1D275F;
+.filter select input {
+  color: #1d275f;
   font-size: 0.875rem;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .grid-list {
@@ -217,7 +217,7 @@ nav {
   background: #ffffff;
 }
 
-.card-image img{
+.card-image img {
   object-fit: cover;
 }
 
@@ -322,7 +322,7 @@ nav {
   margin-bottom: 30px;
 }
 
-.blog-card-content{
+.blog-card-content {
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -330,91 +330,90 @@ nav {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
-.blog-publishing-info{
+.blog-publishing-info {
   font-size: 0.875rem;
-  color: #A5A5A5;
+  color: #a5a5a5;
 }
 
-
 /*footer */
-footer{
+footer {
   background-color: var(--color1);
   display: flex;
   flex-direction: column;
 }
-.footer{
+.footer {
   align-items: start;
   display: flex;
   flex-wrap: wrap;
-  justify-content : space-between;
+  justify-content: space-between;
   gap: 20px;
   padding: 40px 30px;
-  border-bottom: 1px solid #4C4D8B;
+  border-bottom: 1px solid #4c4d8b;
 }
-.footer-info{
+.footer-info {
   display: flex;
   flex-direction: column;
 }
-.footer-logo{
+.footer-logo {
   width: 150px;
   height: 50px;
 }
-.footer-logo img{
+.footer-logo img {
   width: 100%;
   height: 100%;
 }
 
-.footer-paragraph{
-  font-size: .8rem;
+.footer-paragraph {
+  font-size: 0.8rem;
   color: #ffffff;
-  max-width : 333px;
-  margin : 10px 0 20px 0;
+  max-width: 333px;
+  margin: 10px 0 20px 0;
   padding-right: 20px;
   line-height: 1.4rem;
 }
 
-.social-media_icons{
+.social-media_icons {
   display: flex;
   justify-content: start;
 }
 
-.icon{
+.icon {
   width: 36px;
   height: 36px;
   margin-right: 10px;
 }
-.icon:last-child{
-  margin-right : 0;
+.icon:last-child {
+  margin-right: 0;
 }
-.icon img{
+.icon img {
   width: 100%;
   height: 100%;
 }
 
-.footer-items_title{
+.footer-items_title {
   font-size: 1.1rem;
   color: #ffffff;
   letter-spacing: 1px;
-  margin-bottom : 20px;
+  margin-bottom: 20px;
 }
-.footer-menu ul{
-  list-style : none;
+.footer-menu ul {
+  list-style: none;
 }
-.footer-menu ul li{
-  margin-bottom : 10px;
+.footer-menu ul li {
+  margin-bottom: 10px;
 }
-.footer-menu ul li a{
+.footer-menu ul li a {
   text-decoration: none;
   color: #ffffff;
-  font-size : .8rem
+  font-size: 0.8rem;
 }
 
-.subscribe{
-  display : flex;
+.subscribe {
+  display: flex;
   flex-direction: column;
 }
-.subscribe-form{
-  background-color: #F1F1F1;
+.subscribe-form {
+  background-color: #f1f1f1;
   width: 364px;
   height: 58px;
   border-radius: 50px;
@@ -426,18 +425,18 @@ footer{
   column-gap: 20px;
 }
 
-.subscribe-form input{
+.subscribe-form input {
   padding: 5px 10px;
   outline: none;
   border: none;
   background: transparent;
 }
-.subscribe-form input::placeholder{
+.subscribe-form input::placeholder {
   color: #959595;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
-.subscribe-button{
+.subscribe-button {
   max-width: 130px;
   padding: 10px 24px;
   text-align: center;
@@ -446,17 +445,16 @@ footer{
   border: none;
   border-radius: 50px;
 }
-.subscribe-button a{
-   font-size: .8rem;
-   color: #ffffff;
-   text-decoration: none;
+.subscribe-button a {
+  font-size: 0.8rem;
+  color: #ffffff;
+  text-decoration: none;
 }
 
-.copyright{
-  font-size: .6rem;
+.copyright {
+  font-size: 0.6rem;
   color: #ffffff;
   margin: 20px 0;
-  letter-spacing : 1px;
+  letter-spacing: 1px;
   text-align: center;
 }
-
