@@ -119,17 +119,22 @@
     outline: none;
     border: 1px solid var(--secondary-color);
     padding: 5px 10px;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
 .login-button{
     outline: none;
     background: transparent;
     border: 1px solid var(--secondary-color);
-    border-radius: 20px;
+    border-radius: 50px;
     padding: 8px 45px;
     width: fit-content;
     height: 45px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.login-button:hover{
+  background-color: var(--secondary-color);
 }
 .login-button a{
     text-decoration : none;
@@ -137,8 +142,14 @@
     font-size: 1rem;
     text-transform: capitalize;
 }
+.login-button:hover a{
+  color: #ffffff;
+}
 
 .google-login a{
     color: #000;
     font-size: 1rem;
+}
+.google-login a:hover{
+    color: var(--secondary-color);
 }
