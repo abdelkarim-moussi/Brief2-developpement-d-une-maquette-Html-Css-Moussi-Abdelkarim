@@ -8,7 +8,19 @@
   padding: 60px;
   display: flex;
   flex-wrap: wrap;
+  gap: 40px;
   background-color: var(--color1);
+}
+@media (max-width: 800px){
+ .login{
+  flex-direction: column;
+  align-items: center;
+ }
+}
+@media (max-width:600px){
+  .login{
+    padding: 60px 20px;
+  }
 }
 
 .login-content {
@@ -57,11 +69,18 @@
   align-items: start;
   flex-wrap: wrap;
 }
+
 .login-brands_list .brand-logo {
   justify-content: start;
 }
+@media (max-width: 930px){
+  .login-brands_list .brand-logo{
+    width: 100px;
+  }
+}
 
 .login-form {
+  flex: .8;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,15 +96,25 @@
   font-size: 1.2rem;
   letter-spacing: 1px;
 }
-form {
+.login-form form {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   row-gap: 20px;
 }
+@media (max-width: 900px){
+  .login-form{
+    width: 100%;
+  }
+  .login-form form{
+    width: 100%;
+  }
+}
 
-form input{
-    width: 400px;
+
+.login-form form input{
+    width: 90%;
     height: 45px;
     outline: none;
     border: 1px solid var(--secondary-color);
