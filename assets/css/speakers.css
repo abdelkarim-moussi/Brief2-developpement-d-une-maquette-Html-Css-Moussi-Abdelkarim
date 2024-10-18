@@ -6,14 +6,14 @@
 
 .head-section {
   height: 70vh;
-  position: relative;
   background: linear-gradient(#ed4690e6, rgba(85, 34, 204, 0.9)),
     url("/assets/imgs/bg2.jpg") center no-repeat;
   background-size: cover;
 }
+
 .search-box {
-  position: absolute;
-  bottom: 100px;
+  position: relative;
+  top: 200px;
 }
 
 .speakers {

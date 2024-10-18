@@ -122,7 +122,7 @@
     border-radius: 50px;
 }
 
-.login-button{
+.login-form_button{
     outline: none;
     background: transparent;
     border: 1px solid var(--secondary-color);
@@ -133,16 +133,16 @@
     cursor: pointer;
     transition: .5s ease-in-out;
 }
-.login-button:hover{
+.login-form_button:hover{
   background-color: var(--secondary-color);
 }
-.login-button a{
+.login-form_button a{
     text-decoration : none;
     color: #242565;
     font-size: 1rem;
     text-transform: capitalize;
 }
-.login-button:hover a{
+.login-form_button:hover a{
   color: #ffffff;
 }
 
