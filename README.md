@@ -1,6 +1,6 @@
 Site web pour l'organistaion des évenements Eventick
 
-   Le projet et le sujet du 2deuxième brief,il  mise en oeuvre un site web pour organiser des évenements
+   Le projet et le sujet du deuxième brief,il  mise en oeuvre un site web pour organiser des évenements
    le projet contient 4 pages, la page home, speakers,about et login.
 
    -Home page : la page principale de site , il contient les élements suivants : 
