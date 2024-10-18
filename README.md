@@ -8,7 +8,7 @@ Site web pour l'organistaion des évenements Eventick
                 -Logo
                 -menu de navigation pour consulter les pages de site
                 -Hero section : contient une image principal et un grand titre, une paragraph et des buttons
-                -search box pour rechercher un événement cela le nom,la place et le temps
+                -search box pour rechercher un événement celon le nom,la place et le temps
            -Events Section :
                 -le titre de section(Upcoming Events)
                 -la bare de filtrage pour choisir un événement spécifique en fonction de temps, type et categorie
@@ -30,7 +30,7 @@ Site web pour l'organistaion des évenements Eventick
                 -titre de section (Our Trusted Speakers)
                 -box de recherche pour rechercher un speaker
                 -list des speakers :
-                      speaker cardd: contient l'image de speaker ,nom et damaine de travail
+                      speaker card: contient l'image de speaker ,nom et domaine de travail
             -Footer
     -About page :
             -bar de navigation et Heed section avec le search box
