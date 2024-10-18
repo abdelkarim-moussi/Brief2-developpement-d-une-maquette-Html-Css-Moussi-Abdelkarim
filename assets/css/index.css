@@ -63,7 +63,13 @@ nav {
   color: #fff;
   text-decoration: none;
   font-size: 1rem;
+  transition: .5s ease-in-out;
 }
+.nav-menu ul li a:hover{
+ color: var(--secondary-color);
+}
+
+
 @media (max-width: 650px) {
   .nav-menu {
     position: relative;
