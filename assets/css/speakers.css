@@ -61,6 +61,7 @@
   padding: 0;
 }
 .speaker-card {
+  flex: 1;
   height: 370px;
   background-color: var(--color1);
   padding: 10px 20px;
